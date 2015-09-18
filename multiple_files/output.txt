@@ -1,0 +1,11 @@
+$ cppcheck --enable=all  .
+Checking foo.cpp...
+[foo.cpp:4]: (error) Memory leak: p
+1/2 files checked 50% done
+Checking main.cpp...
+2/2 files checked 100% done
+[main.cpp:3]: (style) The function 'g' is never used.
+
+$ cppcheck --version
+Cppcheck 1.71 dev
+

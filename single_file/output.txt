@@ -1,0 +1,7 @@
+$ cppcheck test.cpp 
+Checking test.cpp...
+[test.cpp:3]: (error) Array 'p[10]' accessed at index 100, which is out of bounds.
+[test.cpp:4]: (error) Memory leak: p
+
+$ cppcheck --version
+Cppcheck 1.71 dev
